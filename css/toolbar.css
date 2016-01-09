@@ -1,0 +1,17 @@
+﻿div.toolbar {
+	color: #003399;
+	margin: 0px auto 0px auto;
+	border-bottom: 0px solid #666;
+	background-color: #CECBCE;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	height: 18px;
+}
+
+div.toolbar input {
+	background-color: #CECBCE;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	border: 0px none #CFCFCF
+}
+

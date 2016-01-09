@@ -1,0 +1,83 @@
+﻿.admin-grid {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	vertical-align:middle;
+	text-align: justify;
+}
+
+.admin-grid caption {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-weight: bold;
+	background-color: #F7F3EF;
+	font-family: Tahoma;
+	text-align:left;
+	background: #F4F3EE url(../img/datagrid/bg-header.gif) repeat-x;
+	background-position: center bottom;
+}
+
+.admin-grid radio {
+	border: 0px;
+}
+
+.admin-grid th a {
+	color: #002D96;
+	text-decoration: none;
+}
+
+.admin-grid th a:hover {
+	color: #EF9615;
+}
+
+.admin-grid td {
+	border: 0px solid #ccc;	
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.admin-grid .row-header {
+	text-align: center;
+	background: #F4F3EE url(../img/datagrid/bg-header.gif) repeat-x;
+	background-position: center bottom;
+	background-color: #fff;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	height: 27px;
+	color: #002D96;
+	text-align: center;
+}
+
+.admin-grid .row
+{
+	background-color: #fff;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.admin-grid .row-alternative
+{
+	background-color: #F4F4F4;
+}
+
+.admin-grid .row-hover {
+	background: #CBE1FC;
+}
+
+.admin-grid .row-selected {
+	background: #CBE1FC;
+}
+
+.admin-grid .row-pager {
+	background: url(../img/datagrid/bg-footer.gif) repeat-x top;
+	padding: 4px;
+	padding-top: 8px;
+}
+
+.admin-grid .row-pager a:link, a:visited, a {
+	color: #000;
+	font-size: 12px;
+}

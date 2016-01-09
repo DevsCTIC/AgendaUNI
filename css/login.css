@@ -1,0 +1,45 @@
+﻿.contentLogin  {
+    margin: 0px auto 0px auto;
+    width: 240px
+}
+
+.contentLogin td.tdTitle  {
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.contentLogin td.tdContent  {
+    border: 1px #0E2442 solid; 
+}
+
+table.login  {
+    margin: 0px auto 0px auto;
+}
+
+table.login  td {
+    padding: 1px;
+}
+
+table.login caption {
+    
+}
+
+table.login input.txtUser {
+    width: 120px;
+}
+
+table.login input.txtPassword {
+    width: 120px;
+}
+
+table.login input.btnSubmit  {
+    background-color: #00356A;
+    color: #fff;
+}
+
+table.login tr.trSubmit  {
+    text-align: right;
+    padding-top: 4px;
+}
