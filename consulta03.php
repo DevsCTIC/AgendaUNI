@@ -4,7 +4,7 @@
     $txt_fec_asu_vc = $_POST['txt_fec_asu_vc'];
     $cbo_cod_fac_in = $_POST['cbo_cod_fac_in'];
     
-     $mysqli = new mysqli('localhost', 'root', 'root', 'calendario');
+     $mysqli = new mysqli('localhost', 'root', '', 'calendario');
 
     if ($mysqli->connect_error) {
     die('Error de Conexión (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);

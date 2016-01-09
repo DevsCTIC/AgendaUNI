@@ -54,7 +54,7 @@ function __doPostBack(eventTarget, eventArgument) {
                             <td class="master-content-top">
                                 <div style="background-color:#ecf0f1; text-align:right; padding:4px;">
                                     <!--<a id="ctl00_lsLogin" href="login.html">Iniciar sesión</a>-->
-                                    <a href="login.html" class="button blue radius">
+                                    <a href="login.php" class="button blue radius">
                                         <font class=" body"=body" size=2 color=#ecf0f1>
                                         Iniciar sesión
                                         </font>
