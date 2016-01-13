@@ -7,7 +7,7 @@
 	margin:5px;
 	padding:5px 0;
 	text-align:center;
-	width:100px;
+	width:150px;
 	text-decoration:none;
 	box-shadow:0px 3px 0px #373c3c;
 }
@@ -19,7 +19,12 @@
 /*Colores*/
 .button.blue {
 	background:#e74c3c;
-	box-shadow:0px 3px 0px #ee484f;
+	box-shadow:0px 3px 0px #bf2718;
+}
+
+.button.white {
+	background:#fcf9fe;
+	box-shadow:0px 3px 0px #e3c7f6;
 }
 
 .button.yellow {

@@ -37,11 +37,13 @@ a:hover, a:active {
 input {
     font-family: Arial;
 	font-size: 11px;
+    width: 118px;
 }
 	
 select {
     font-family: Arial;
 	font-size: 11px;
+    width: 84px;
 }
 
 textarea {

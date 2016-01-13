@@ -10,7 +10,8 @@
             $cbo_cod_hra_ini_in = $_POST['cbo_cod_hra_ini_in'];
             $cbo_cod_hra_fin_in = $_POST['cbo_cod_hra_fin_in'];
             $cbo_cod_fac_in = $_POST['cbo_cod_fac_in'];
-            $mysqli = new mysqli('localhost', 'root', '', 'calendario');
+            $txt_fec_asu_vc = $_POST['txt_fec_asu_vc'];
+            $mysqli = new mysqli('localhost', 'root', 'root', 'calendario');
             if (!$mysqli->set_charset("utf8")) {
                 printf("Error cargando el conjunto de caracteres utf8: %s\n", $mysqli->error);
                 exit();
@@ -29,11 +30,11 @@
 			try {
 
                $dsn='mysql:host=localhost;dbname=calendario';
-               $dbh=new PDO($dsn,'root','');
+               $dbh=new PDO($dsn,'root','root');
                $dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
                $dbh->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
                $dbh->setAttribute(PDO::ATTR_CASE,PDO::CASE_LOWER);
-               $query="CALL insertar_asunto('$txt_nom_asu_vc','$txt_lug_asu_vc','$cbo_cod_hra_ini_in','$cbo_cod_hra_fin_in','$cbo_cod_fac_in')";
+               $query="CALL insertar_asunto('$txt_nom_asu_vc','$txt_lug_asu_vc','$cbo_cod_hra_ini_in','$cbo_cod_hra_fin_in','$cbo_cod_fac_in','$txt_fec_asu_vc')";
                $stm=$dbh->query($query);
                
                echo "Actualizacion Correcta!<br />";

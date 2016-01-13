@@ -16,6 +16,7 @@ table.master .error {
 
 table.master td {
     vertical-align: top;
+    font-weight: 700;
 }
 
 table.master .master-content-main {
